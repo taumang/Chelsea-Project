@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+    
+}
+body{
+    background: repeating-linear-gradient(35deg,rgb(4, 48, 190),rgb(25,60,80));
+}
+
+.title{
+    bottom: 12px;
+    color: white;
+}
+.field{
+    transform: rotate(90deg);
+    background-image: url(./images/147_half_soccer_pitch.jpg);
+}
+.theDiv{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(30, 30, 190);
+    text-align: justify;
+    left: 20em;
+}
+.thePlayers{
+    /* This is how a basic conatiner is created using CSS */
+    border:1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding:10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
